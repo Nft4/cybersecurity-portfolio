@@ -1,0 +1,23 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+secrets*
+
+# Raw traffic and private datasets: publish redacted reports instead
+*.pcap
+*.pcapng
+private/
+raw-data/
+
+# Local runtime and editor files
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.vscode/
